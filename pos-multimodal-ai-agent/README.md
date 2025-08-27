@@ -41,6 +41,7 @@ Be sure to set your HF_TOKEN in the .env file before running the below.
 ```
 
 ### Run ADK Web Demo
+After running the below command launch a browser to 127.0.0.1:8000 and select "pos_agent_adk_web" and enable "Token Streaming" from the UI to get started.
 ```
 ./src/run-adkweb.sh
 ```

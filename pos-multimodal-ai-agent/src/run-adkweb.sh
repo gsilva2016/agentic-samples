@@ -8,4 +8,6 @@ echo $CONDA_ENV
 
 # Agent
 conda activate $CONDA_ENV
-adk web src/pos_agent_adkweb
+cd src
+adk web .
+cd ..
