@@ -1,6 +1,6 @@
 # Agentic-Samples - Intel® Agentic Reference Samples
 
-Various Intel® edge client/embedded agentic based samples. 
+AI Agent samples for Intel® edge and embedded clients.
 
 | Demo  | Description |
 | ------------- | ------------- |
