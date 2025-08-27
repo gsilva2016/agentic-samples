@@ -33,6 +33,14 @@ Note: if this script has already been performed and you'd like to re-install the
 
 ## Run Examples
 
+### Run vLLM
+Be sure to set your HF_TOKEN in the .env file before running the below.
+
 ```
-./run.sh
+./run-vllm.sh
+```
+
+### Run ADK Web Demo
+```
+./src/run-adkweb.sh
 ```

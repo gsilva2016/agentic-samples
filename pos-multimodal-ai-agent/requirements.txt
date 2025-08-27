@@ -1,0 +1,3 @@
+google_adk
+litellm
+openai<1.100.0 # bug in openai - https://github.com/vllm-project/recipes/issues/28
