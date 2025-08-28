@@ -18,7 +18,7 @@ agent_model_device = os.getenv("AGENT_MODEL_DEVICE", "GPU")
 agent_instruction = os.getenv("AGENT_INSTRUCTION", "")
 
 # Enable DEBUG
-litellm._turn_on_debug()
+#litellm._turn_on_debug()
 
 # Connecct model server endpoint
 llm_serving = LiteLlm(

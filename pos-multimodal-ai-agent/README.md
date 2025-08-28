@@ -34,14 +34,14 @@ Note: if this script has already been performed and you'd like to re-install the
 ## Run Examples
 
 ### Run vLLM
-Be sure to set your HF_TOKEN in the .env file before running the below.
+Be sure to set your HF_TOKEN in the .env file before running the below. Also ensure you use the same model names in .env and ./src/pos_agent_adkweb/.env
 
 ```
 ./run-vllm.sh
 ```
 
 ### Run ADK Web Demo
-After running the below command launch a browser to 127.0.0.1:8000 and select "pos_agent_adk_web" and enable "Token Streaming" from the UI to get started.
+After running the below command launch a browser to 127.0.0.1:8000 and select "pos_agent_adk_web" and enable "Token Streaming" from the UI to get started. For repeated queries like "Are there any discrepancies" click the "New Session" button on the UI.
 ```
 ./src/run-adkweb.sh
 ```
